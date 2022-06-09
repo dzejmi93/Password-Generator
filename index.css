@@ -1,0 +1,83 @@
+html,
+body {
+  margin: 40px 30px;
+  padding: 0;
+  background: #1f2937;
+  font-family: "Inter";
+  font-style: normal;
+}
+/* Header*/
+h1 {
+  font-family: "Karla";
+  font-style: inherit;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 40px;
+  color: #fff;
+}
+span {
+  color: #10b981;
+  display: block;
+}
+/* Supporting text*/
+h2 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #d5d4d8;
+}
+/* Generate passwords button */
+#generate {
+  font-family: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 17px 9px 15px;
+  gap: 12px;
+  font-size: 16px;
+  line-height: 24px;
+  border-radius: 5px;
+  border: none;
+
+  font-weight: 500;
+  background: #10b981;
+}
+img {
+  width: 14px;
+  height: 18px;
+}
+/* Password options*/
+#passwords {
+  height: 20vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  border-top: 1px solid #2f3e53;
+}
+.pass-copy {
+  width: max-content;
+  margin: 30px 60px 0px 0px;
+}
+/* Passwords */
+input {
+  font-family: inherit;
+  background: #273549;
+  border-radius: 3px;
+  border: none;
+  color: #55f991;
+  padding: 15px;
+  font-size: 14px;
+}
+/* Buttons */
+.copy {
+  font-family: inherit;
+  background: #10b981;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
